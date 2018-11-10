@@ -1,0 +1,252 @@
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+C:\Users\admin\source\repos\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+C:\Users\H S Umer Farooq\Desktop\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+F:\Tabish\Softwares\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+F:\Tabish\Softwares\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+D:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+D:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+D:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+D:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+D:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+D:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+D:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+D:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+D:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+D:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+J:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+J:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+J:\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+J:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+J:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+J:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+J:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+J:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+J:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+J:\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+J:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+J:\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+D:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Activation.resources
+J:\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Activation.resources
+J:\Files\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+J:\Files\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+J:\Files\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+J:\Files\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+J:\Files\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+J:\Files\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+J:\Files\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+J:\Files\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+J:\Files\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+J:\Files\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+J:\Files\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+J:\Files\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Activation.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+J:\Files\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Activation.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ReceiveEdit.resources
+C:\Users\H S Umer Farooq\Downloads\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseEdit.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe.config
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.exe
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\Transport_salik.pdb
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.dll
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.dll
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.EF6.dll
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.Linq.dll
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.xml
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\EntityFramework.SqlServer.xml
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.xml
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\bin\Debug\System.Data.SQLite.dll.config
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csprojResolveAssemblyReference.cache
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Activation.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Bill.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.clients.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseAdd.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ExpenseEdit.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Expenses.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Form1.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.PassScreen.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Properties.Resources.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.ReceiveEdit.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Recevings.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.RecevingsAdd.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Settings.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TripAdd.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Trips.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.Truck_Details.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.TrucksList.resources
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.GenerateResource.Cache
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.csproj.CoreCompileInputs.cache
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.exe
+D:\softwares win 10\Transport_salik\Transport_salik\Transport_salik\obj\Debug\Transport_salik.pdb
