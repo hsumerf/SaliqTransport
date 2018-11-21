@@ -74,28 +74,32 @@ namespace Transport_salik
                   dr["Amount"].ToString() }));
             }
             // Previous Balance
-            int preBalance = 0;
-            sq = new SQLiteCommand("select sum(Amount) from TripDetails INNER JOIN TripDetails ON TripDetails.Tripno = Trips.TripNo WHERE Trips.Date < '" + dateTimePicker1.Text + "' AND TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
+            int preBalance = 0,preAmount=0;
+            sq = new SQLiteCommand("select sum(TripDetails.Amount) from TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo WHERE Trips.Date < '" + dateTimePicker1.Text + "' AND TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
             //dr = sq.ExecuteReader();
             try
             {
-                preBalance += int.Parse(sq.ExecuteScalar().ToString());
+                preAmount += int.Parse(sq.ExecuteScalar().ToString());
             }
             catch (Exception)
             {
-                preBalance = 0;
-            }           
+                preAmount = 0;
+            }
+            Console.WriteLine(preAmount);
+            int preReceived = 0;
             sq = new SQLiteCommand("select sum(amount) from Expenses where Date < '" + dateTimePicker1.Text + "' AND recver='" + textBox1.Text + "' ", scn);
             try
             {
-                preBalance -= int.Parse(sq.ExecuteScalar().ToString());
+                preReceived -= int.Parse(sq.ExecuteScalar().ToString());
 
             }
             catch (Exception)
             {
-                preBalance = 0;
+                preReceived = 0;
             }
+            Console.WriteLine(preReceived);
             //Previous Balance Label
+            preBalance = preAmount - preReceived;
             PreBal.Text = preBalance.ToString();
             int totalAmount=0, receiveAmount = 0;
             sq = new SQLiteCommand("select sum(TripDetails.Amount) from TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo WHERE Trips.Date BETWEEN '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "' AND TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
@@ -119,7 +123,7 @@ namespace Transport_salik
                 
             }
             ReceiveLabel.Text = receiveAmount.ToString();      
-            int netAmount = totalAmount - receiveAmount;
+            int netAmount = totalAmount - receiveAmount + preBalance;
             NetLabel.Text = (netAmount).ToString();
             //CODE FOR TOTAL
             int wholeTotal = 0, wholeReceive = 0;
