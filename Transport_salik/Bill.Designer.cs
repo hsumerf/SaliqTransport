@@ -58,6 +58,12 @@
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label9 = new System.Windows.Forms.Label();
             this.Previous = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.WholeTotal = new System.Windows.Forms.Label();
+            this.WholeReceive = new System.Windows.Forms.Label();
+            this.WholeNet = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // clientname
@@ -150,9 +156,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(606, 471);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.Size = new System.Drawing.Size(116, 16);
             this.label6.TabIndex = 80;
-            this.label6.Text = "Receive";
+            this.label6.Text = "Range Receive";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // total
@@ -174,9 +180,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(606, 447);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
+            this.label8.Size = new System.Drawing.Size(94, 16);
             this.label8.TabIndex = 82;
-            this.label8.Text = "Total";
+            this.label8.Text = "Range Total";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // net
@@ -184,9 +190,9 @@
             this.net.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.net.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.net.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.net.Location = new System.Drawing.Point(698, 494);
+            this.net.Location = new System.Drawing.Point(723, 494);
             this.net.Name = "net";
-            this.net.Size = new System.Drawing.Size(175, 26);
+            this.net.Size = new System.Drawing.Size(150, 26);
             this.net.TabIndex = 85;
             this.net.Text = "0";
             this.net.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -199,9 +205,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(606, 498);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 18);
+            this.label10.Size = new System.Drawing.Size(111, 18);
             this.label10.TabIndex = 84;
-            this.label10.Text = "Net";
+            this.label10.Text = "Last Date Net";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // button1
@@ -343,11 +349,83 @@
             this.Previous.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Previous.Click += new System.EventHandler(this.Previous_Click);
             // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(273, 444);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 16);
+            this.label3.TabIndex = 114;
+            this.label3.Text = "Business Total";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(273, 471);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 16);
+            this.label4.TabIndex = 115;
+            this.label4.Text = "Business Receive";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(273, 497);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 18);
+            this.label7.TabIndex = 116;
+            this.label7.Text = "Business Net";
+            // 
+            // WholeTotal
+            // 
+            this.WholeTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeTotal.Location = new System.Drawing.Point(403, 444);
+            this.WholeTotal.Name = "WholeTotal";
+            this.WholeTotal.Size = new System.Drawing.Size(86, 16);
+            this.WholeTotal.TabIndex = 117;
+            this.WholeTotal.Text = "0";
+            this.WholeTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // WholeReceive
+            // 
+            this.WholeReceive.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeReceive.Location = new System.Drawing.Point(403, 470);
+            this.WholeReceive.Name = "WholeReceive";
+            this.WholeReceive.Size = new System.Drawing.Size(86, 16);
+            this.WholeReceive.TabIndex = 118;
+            this.WholeReceive.Text = "0";
+            this.WholeReceive.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // WholeNet
+            // 
+            this.WholeNet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeNet.Location = new System.Drawing.Point(387, 499);
+            this.WholeNet.Name = "WholeNet";
+            this.WholeNet.Size = new System.Drawing.Size(102, 16);
+            this.WholeNet.TabIndex = 119;
+            this.WholeNet.Text = "0";
+            this.WholeNet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // Bill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(893, 526);
+            this.Controls.Add(this.WholeNet);
+            this.Controls.Add(this.WholeReceive);
+            this.Controls.Add(this.WholeTotal);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.listView1);
@@ -408,5 +486,11 @@
         private System.Windows.Forms.ColumnHeader columnHeader16;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label Previous;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label WholeTotal;
+        private System.Windows.Forms.Label WholeReceive;
+        private System.Windows.Forms.Label WholeNet;
     }
 }

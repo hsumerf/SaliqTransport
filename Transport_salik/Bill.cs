@@ -72,13 +72,30 @@ namespace Transport_salik
             dr = sq.ExecuteReader();
             while (dr.Read())
             {
-
                 receivedAmount += int.Parse(dr["Amount"].ToString());
-
             }
             // balance.Text = Sqlite.ClientBalance(clientname.Text).ToString();
             balance.Text = receivedAmount.ToString();
-            net.Text = (ttl - int.Parse(balance.Text) + previousNet).ToString();
+            net.Text = ((ttl - receivedAmount) + previousNet).ToString();
+            // CODE FOR TOTAL
+            int wholeTotal = 0;
+            sq = new SQLiteCommand("select * from Trips where Name='" + clientname.Text + "' ORDER BY Date", scn);
+            dr = sq.ExecuteReader();
+            while (dr.Read())
+            {
+                wholeTotal += int.Parse(dr["Amount"].ToString()) * int.Parse(dr["Qty"].ToString()) + int.Parse(dr["Other"].ToString());
+            }
+            WholeTotal.Text = wholeTotal.ToString();
+            int wholeReceive = 0;
+            sq = new SQLiteCommand("select * from Recevings where Payer='" + clientname.Text + "' ORDER BY Date", scn);
+            dr = sq.ExecuteReader();
+            while (dr.Read())
+            {
+                wholeReceive += int.Parse(dr["Amount"].ToString());
+
+            }
+            WholeReceive.Text = wholeReceive.ToString();
+            WholeNet.Text = (wholeTotal - wholeReceive).ToString();
             //sq = new SQLiteCommand("select * from Trips where Name='" + clientname.Text + "' AND Status='Unpaid' ORDER BY Date", scn);
             //dr = sq.ExecuteReader();
             //int TotalAmount=0;
@@ -87,7 +104,7 @@ namespace Transport_salik
 
             //    TotalAmount += int.Parse(dr["Amount"].ToString()) * int.Parse(dr["Qty"].ToString()) + int.Parse(dr["Other"].ToString());
             //    //Console.WriteLine(TotalAmount);
-                
+
             //}
             //TotalBalance.Text = TotalAmount.ToString();
             //sq = new SQLiteCommand("select * from Recevings where Payer='" + clientname.Text + "' ORDER BY Date", scn);
@@ -102,7 +119,7 @@ namespace Transport_salik
             //}
             //TotalRec.Text = totalRec.ToString();
             //TotalNet.Text = (TotalAmount - totalRec).ToString();
-            
+
         }
 
         private void Bill_Load(object sender, EventArgs e)

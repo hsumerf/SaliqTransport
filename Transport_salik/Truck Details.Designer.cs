@@ -37,10 +37,6 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label10 = new System.Windows.Forms.Label();
-            this.total = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.net = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,8 +49,20 @@
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.ComboBox();
-            this.Total_Trips = new System.Windows.Forms.Label();
+            this.PreBal = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TotalLabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ReceiveLabel = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.NetLabel = new System.Windows.Forms.Label();
+            this.WholeNet = new System.Windows.Forms.Label();
+            this.WholeReceive = new System.Windows.Forms.Label();
+            this.WholeTotal = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // truckdetails
@@ -73,9 +81,9 @@
             this.truckdetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.truckdetails.FullRowSelect = true;
             this.truckdetails.GridLines = true;
-            this.truckdetails.Location = new System.Drawing.Point(9, 68);
+            this.truckdetails.Location = new System.Drawing.Point(9, 64);
             this.truckdetails.Name = "truckdetails";
-            this.truckdetails.Size = new System.Drawing.Size(760, 316);
+            this.truckdetails.Size = new System.Drawing.Size(998, 446);
             this.truckdetails.TabIndex = 41;
             this.truckdetails.UseCompatibleStateImageBehavior = false;
             this.truckdetails.View = System.Windows.Forms.View.Details;
@@ -114,51 +122,6 @@
             // 
             this.columnHeader1.Text = "Amount";
             this.columnHeader1.Width = 138;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(516, 425);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(123, 16);
-            this.label10.TabIndex = 90;
-            this.label10.Text = "Payment Amount";
-            // 
-            // total
-            // 
-            this.total.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.total.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.total.Location = new System.Drawing.Point(640, 398);
-            this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(107, 16);
-            this.total.TabIndex = 89;
-            this.total.Text = "0";
-            this.total.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(582, 398);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 88;
-            this.label8.Text = "Total";
-            // 
-            // net
-            // 
-            this.net.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.net.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.net.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.net.Location = new System.Drawing.Point(513, 420);
-            this.net.Name = "net";
-            this.net.Size = new System.Drawing.Size(236, 26);
-            this.net.TabIndex = 91;
-            this.net.Text = "0";
-            this.net.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button2
             // 
@@ -218,7 +181,7 @@
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button3.Location = new System.Drawing.Point(12, 426);
+            this.button3.Location = new System.Drawing.Point(12, 582);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 23);
             this.button3.TabIndex = 101;
@@ -229,7 +192,7 @@
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button4.Location = new System.Drawing.Point(12, 397);
+            this.button4.Location = new System.Drawing.Point(12, 553);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(93, 23);
             this.button4.TabIndex = 100;
@@ -255,7 +218,7 @@
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button6.Location = new System.Drawing.Point(111, 426);
+            this.button6.Location = new System.Drawing.Point(111, 582);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(76, 23);
             this.button6.TabIndex = 104;
@@ -273,35 +236,180 @@
             this.textBox1.Size = new System.Drawing.Size(121, 21);
             this.textBox1.TabIndex = 105;
             // 
-            // Total_Trips
+            // PreBal
             // 
-            this.Total_Trips.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.Total_Trips.AutoSize = true;
-            this.Total_Trips.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Total_Trips.Location = new System.Drawing.Point(424, 426);
-            this.Total_Trips.Name = "Total_Trips";
-            this.Total_Trips.Size = new System.Drawing.Size(17, 17);
-            this.Total_Trips.TabIndex = 109;
-            this.Total_Trips.Text = "0";
+            this.PreBal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PreBal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreBal.Location = new System.Drawing.Point(869, 515);
+            this.PreBal.Name = "PreBal";
+            this.PreBal.Size = new System.Drawing.Size(86, 16);
+            this.PreBal.TabIndex = 121;
+            this.PreBal.Text = "0";
+            this.PreBal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(690, 517);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(130, 16);
+            this.label9.TabIndex = 120;
+            this.label9.Text = "Previous Balance";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(690, 590);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 18);
+            this.label3.TabIndex = 118;
+            this.label3.Text = "Net";
+            // 
+            // TotalLabel
+            // 
+            this.TotalLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalLabel.Location = new System.Drawing.Point(870, 539);
+            this.TotalLabel.Name = "TotalLabel";
+            this.TotalLabel.Size = new System.Drawing.Size(86, 16);
+            this.TotalLabel.TabIndex = 117;
+            this.TotalLabel.Text = "0";
+            this.TotalLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(690, 539);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 16);
+            this.label7.TabIndex = 116;
+            this.label7.Text = "Total";
+            // 
+            // ReceiveLabel
+            // 
+            this.ReceiveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.ReceiveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReceiveLabel.Location = new System.Drawing.Point(849, 562);
+            this.ReceiveLabel.Name = "ReceiveLabel";
+            this.ReceiveLabel.Size = new System.Drawing.Size(107, 16);
+            this.ReceiveLabel.TabIndex = 115;
+            this.ReceiveLabel.Text = "0";
+            this.ReceiveLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(690, 563);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(66, 16);
+            this.label11.TabIndex = 114;
+            this.label11.Text = "Receive";
+            // 
+            // NetLabel
+            // 
+            this.NetLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.NetLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NetLabel.Location = new System.Drawing.Point(782, 586);
+            this.NetLabel.Name = "NetLabel";
+            this.NetLabel.Size = new System.Drawing.Size(175, 26);
+            this.NetLabel.TabIndex = 119;
+            this.NetLabel.Text = "0";
+            this.NetLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // WholeNet
+            // 
+            this.WholeNet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeNet.Location = new System.Drawing.Point(482, 581);
+            this.WholeNet.Name = "WholeNet";
+            this.WholeNet.Size = new System.Drawing.Size(102, 16);
+            this.WholeNet.TabIndex = 127;
+            this.WholeNet.Text = "0";
+            this.WholeNet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // WholeReceive
+            // 
+            this.WholeReceive.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeReceive.Location = new System.Drawing.Point(498, 552);
+            this.WholeReceive.Name = "WholeReceive";
+            this.WholeReceive.Size = new System.Drawing.Size(86, 16);
+            this.WholeReceive.TabIndex = 126;
+            this.WholeReceive.Text = "0";
+            this.WholeReceive.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // WholeTotal
+            // 
+            this.WholeTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.WholeTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WholeTotal.Location = new System.Drawing.Point(498, 526);
+            this.WholeTotal.Name = "WholeTotal";
+            this.WholeTotal.Size = new System.Drawing.Size(86, 16);
+            this.WholeTotal.TabIndex = 125;
+            this.WholeTotal.Text = "0";
+            this.WholeTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(321, 426);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(368, 579);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 17);
-            this.label4.TabIndex = 108;
-            this.label4.Text = "Total Trips";
+            this.label4.Size = new System.Drawing.Size(108, 18);
+            this.label4.TabIndex = 124;
+            this.label4.Text = "Business Net";
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(368, 553);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(133, 16);
+            this.label6.TabIndex = 123;
+            this.label6.Text = "Business Receive";
+            // 
+            // label8
+            // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(368, 526);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(111, 16);
+            this.label8.TabIndex = 122;
+            this.label8.Text = "Business Total";
             // 
             // Truck_Details
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 458);
-            this.Controls.Add(this.Total_Trips);
+            this.ClientSize = new System.Drawing.Size(1019, 614);
+            this.Controls.Add(this.WholeNet);
+            this.Controls.Add(this.WholeReceive);
+            this.Controls.Add(this.WholeTotal);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.PreBal);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TotalLabel);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.ReceiveLabel);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.NetLabel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button3);
@@ -312,10 +420,6 @@
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.total);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.net);
             this.Controls.Add(this.truckdetails);
             this.Name = "Truck_Details";
             this.ShowIcon = false;
@@ -336,10 +440,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label total;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label net;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -354,7 +454,19 @@
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ComboBox textBox1;
-        private System.Windows.Forms.Label Total_Trips;
+        private System.Windows.Forms.Label PreBal;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label TotalLabel;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label ReceiveLabel;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label NetLabel;
+        private System.Windows.Forms.Label WholeNet;
+        private System.Windows.Forms.Label WholeReceive;
+        private System.Windows.Forms.Label WholeTotal;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
     }
 }

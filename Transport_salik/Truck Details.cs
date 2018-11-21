@@ -20,11 +20,40 @@ namespace Transport_salik
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //truckdetails.Items.Clear();
+            //SQLiteConnection scn = new SQLiteConnection(@"data source = main.db");
+            //scn.Open();
+            //SQLiteCommand sq;
+
+            //sq = new SQLiteCommand("SELECT Trips.TripNo,Trips.Date,Trips.Froom,Trips.Tao,TripDetails.Truckno,TripDetails.Weight,TripDetails.Location,TripDetails.Qty,TripDetails.Amount " +
+            //                       "FROM TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo " +
+            //                       "WHERE Trips.Date BETWEEN '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "' AND TripDetails.Truckno='" + textBox1.Text + "' ORDER BY Trips.Date", scn);
+            //SQLiteDataReader dr = sq.ExecuteReader();
+            //int ttl = 0;
+            //int total_Trips = 0;
+            //while (dr.Read())
+            //{
+            //    total_Trips++;
+            //    ttl += int.Parse(dr["Amount"].ToString());
+            //    truckdetails.Items.Add(new ListViewItem(new[]
+            //    { dr["TripNo"].ToString(),
+            //      dr["Date"].ToString(),
+            //      dr["Froom"].ToString() +" - "+dr["Tao"].ToString(),
+            //      dr["Weight"].ToString(),
+            //      dr["Location"].ToString(),
+            //      dr["Qty"].ToString(),
+            //      dr["Amount"].ToString() }));
+            //}
+            //total.Text = ttl.ToString();
+           // balance.Text = Sqlite.TruckBalance(textBox1.Text).ToString();
+            ////  net.Text = ttl + int.Parse(balance.Text) + "";
+            //net.Text = Sqlite.TruckBalance(textBox1.Text).ToString();
+            //Total_Trips.Text = total_Trips.ToString();
+            //PREVIOUS CODE
             truckdetails.Items.Clear();
             SQLiteConnection scn = new SQLiteConnection(@"data source = main.db");
             scn.Open();
             SQLiteCommand sq;
-
             sq = new SQLiteCommand("SELECT Trips.TripNo,Trips.Date,Trips.Froom,Trips.Tao,TripDetails.Truckno,TripDetails.Weight,TripDetails.Location,TripDetails.Qty,TripDetails.Amount " +
                                    "FROM TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo " +
                                    "WHERE Trips.Date BETWEEN '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "' AND TripDetails.Truckno='" + textBox1.Text + "' ORDER BY Trips.Date", scn);
@@ -44,11 +73,79 @@ namespace Transport_salik
                   dr["Qty"].ToString(),
                   dr["Amount"].ToString() }));
             }
-            total.Text = ttl.ToString();
-            //  balance.Text = Sqlite.TruckBalance(textBox1.Text).ToString();
-            //  net.Text = ttl + int.Parse(balance.Text) + "";
-            net.Text = Sqlite.TruckBalance(textBox1.Text).ToString();
-            Total_Trips.Text = total_Trips.ToString();
+            // Previous Balance
+            int preBalance = 0;
+            sq = new SQLiteCommand("select sum(Amount) from TripDetails INNER JOIN TripDetails ON TripDetails.Tripno = Trips.TripNo WHERE Trips.Date < '" + dateTimePicker1.Text + "' AND TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
+            //dr = sq.ExecuteReader();
+            try
+            {
+                preBalance += int.Parse(sq.ExecuteScalar().ToString());
+            }
+            catch (Exception)
+            {
+                preBalance = 0;
+            }           
+            sq = new SQLiteCommand("select sum(amount) from Expenses where Date < '" + dateTimePicker1.Text + "' AND recver='" + textBox1.Text + "' ", scn);
+            try
+            {
+                preBalance -= int.Parse(sq.ExecuteScalar().ToString());
+
+            }
+            catch (Exception)
+            {
+                preBalance = 0;
+            }
+            //Previous Balance Label
+            PreBal.Text = preBalance.ToString();
+            int totalAmount=0, receiveAmount = 0;
+            sq = new SQLiteCommand("select sum(TripDetails.Amount) from TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo WHERE Trips.Date BETWEEN '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "' AND TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
+            try
+            {
+                totalAmount = int.Parse(sq.ExecuteScalar().ToString());
+            }
+            catch (Exception)
+            {
+                totalAmount = 0;
+            }
+            TotalLabel.Text = totalAmount.ToString();
+            sq = new SQLiteCommand("select sum(amount) from Expenses where Date BETWEEN '" + dateTimePicker1.Text + "' and '" + dateTimePicker2.Text + "' AND recver='" + textBox1.Text + "' ", scn);
+            try
+            {
+               receiveAmount = int.Parse(sq.ExecuteScalar().ToString());
+            }
+            catch (Exception)
+            {
+                receiveAmount = 0;
+                
+            }
+            ReceiveLabel.Text = receiveAmount.ToString();      
+            int netAmount = totalAmount - receiveAmount;
+            NetLabel.Text = (netAmount).ToString();
+            //CODE FOR TOTAL
+            int wholeTotal = 0, wholeReceive = 0;
+            sq = new SQLiteCommand("select sum(TripDetails.Amount) from TripDetails INNER JOIN Trips ON TripDetails.Tripno = Trips.TripNo WHERE TripDetails.Truckno = '" + textBox1.Text + "' ", scn);
+            try
+            {
+                wholeTotal = int.Parse(sq.ExecuteScalar().ToString());
+            }
+            catch (Exception)
+            {
+                wholeTotal = 0;
+            }
+            WholeTotal.Text = wholeTotal.ToString();
+            sq = new SQLiteCommand("select sum(amount) from Expenses where recver='" + textBox1.Text + "' ", scn);
+            try
+            {
+                wholeReceive = int.Parse(sq.ExecuteScalar().ToString());
+            }
+            catch (Exception)
+            {
+                wholeReceive = 0;
+
+            }
+            WholeReceive.Text = wholeReceive.ToString();
+            int wholeNet = wholeTotal - wholeReceive;
+            WholeNet.Text = (wholeNet).ToString();
 
         }
 
@@ -72,7 +169,7 @@ namespace Transport_salik
         {
             ExpenseAdd expenseAdd = new ExpenseAdd();
             expenseAdd.recver.Text = textBox1.Text;
-            expenseAdd.amount.Text = net.Text;
+            expenseAdd.amount.Text = NetLabel.Text;
             expenseAdd.Show();
         }
 
@@ -155,8 +252,16 @@ namespace Transport_salik
                 }
             }
             sf.Alignment = StringAlignment.Far;
-            e.Graphics.DrawString("Total ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 6);
-            e.Graphics.DrawString(total.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 6);
+            e.Graphics.DrawString("Previous Balance ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 6);
+            e.Graphics.DrawString("Total ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 18);
+            e.Graphics.DrawString("Received ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 30);
+            e.Graphics.DrawString("Net ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 42);
+
+            e.Graphics.DrawString(PreBal.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 6);
+            e.Graphics.DrawString(TotalLabel.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 18);
+            e.Graphics.DrawString(ReceiveLabel.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 30);
+            e.Graphics.DrawString(NetLabel.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 42);
+
             //e.Graphics.DrawString("Net ", new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 600, heingh + 25);
             //e.Graphics.DrawString(net.Text, new Font("Arial", 9f, FontStyle.Bold), Brushes.Black, 720, heingh + 25);
             Pen pen = new Pen(Color.Black, 1);
